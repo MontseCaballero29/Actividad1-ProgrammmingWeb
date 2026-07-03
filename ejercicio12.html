@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Convertidor de pesos mexicanos a dólares</title>
+    <link rel="stylesheet" href="css/ejercicio12.css">
+</head>
+<body>
+
+    <div class="contenedor">
+        <h1>Convertidor</h1>
+
+        <label for="numeroConvertir" class="etiqueta">Pesos MXN (mexicanos):</label>
+        <input type="text" id="numeroConvertir" class="numeroConvertir" placeholder="Ejemplo: 10">
+
+        <button onclick="convertir()" class="boton">Convertir</button>
+
+        <label for="numeroConvertido" class="etiqueta">Dólares (USD):</label>
+
+        <!-- readonly evita que el usuario cambie manualmente el resultado -->
+        <input type="text" id="numeroConvertido" class="numeroConvertido" readonly tabindex="-1">
+    </div>
+
+    <script src="js/ejercicio12.js"></script>
+</body>
+</html>
