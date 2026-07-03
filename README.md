@@ -24,6 +24,6 @@ El objetivo de esta actividad es practicar la estructura de páginas web, estilo
 10. Ejercicio 10 - Conversor de Celsius a Fahrenheit
 11. Ejercicio 11 - Conversor de kilómetros a millas
 12. Ejercicio 12 - Converdor de pesos MXN a USD
-13. Ejercicio 13 - ¿Mayor de edad para votar?
+13. Ejercicio 13 - ¿Eres mayor de edad para votar?
 14. Ejercicio 14 - Mayor, Menor y Promedio de un arreglo de números
 15. Ejercicio 15 - Calificaciones de estudiantes
