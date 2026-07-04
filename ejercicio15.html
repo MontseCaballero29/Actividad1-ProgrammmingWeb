@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 15 - Estudiantes y calificaciones</title>
+    <link rel="stylesheet" href="css/ejercicio15.css">
+</head>
+<body>
+
+    <div class="contenedor">
+        <h1>Promedio y calificaciones de estudiantes</h1>
+
+        <label for="nombreEstudiante" class="etiqueta">Nombre del estudiante:</label>
+        <input type="text" id="nombreEstudiante" class="numeroConvertir" placeholder="Ejemplo: Juan"><br><br>
+
+        <label for="calificacionEstudiante" class="etiqueta">Calificación:</label>
+        <input type="number" id="calificacionEstudiante" class="numeroConvertir" placeholder="Ejemplo: 85" min="0" max="100"><br><br>
+
+        <button onclick="agregarEstudiante()" class="boton">Agregar estudiante</button>
+        <button onclick="calcular()" class="boton">Calcular</button><br><br>
+
+        <label for="resultadoPromedioCalificaciones" class="etiqueta">Promedio de calificaciones:</label>
+        <input type="text" id="resultadoPromedioCalificaciones" class="numeroConvertido" readonly tabindex="-1"><br><br>
+
+        <label for="resultadoCalificacionMasAlta" class="etiqueta">Calificación más alta:</label>
+        <input type="text" id="resultadoCalificacionMasAlta" class="numeroConvertido" readonly tabindex="-1"><br><br>
+
+        <label for="resultadoCalificacionMasBaja" class="etiqueta">Calificación más baja:</label>
+        <input type="text" id="resultadoCalificacionMasBaja" class="numeroConvertido" readonly tabindex="-1"><br><br>
+
+        <label for="numeroEstudiantes" class="etiqueta">Número de estudiantes:</label>
+        <input type="text" id="numeroEstudiantes" class="numeroConvertido" readonly tabindex="-1" value="0">
+    </div>
+
+    <script src="js/ejercicio15.js"></script>
+</body>
+</html>
