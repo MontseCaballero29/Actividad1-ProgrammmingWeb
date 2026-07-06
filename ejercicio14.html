@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 14 - Leer números mostrando el mayor y el menor</title>
+    <link rel="stylesheet" href="css/ejercicio14.css">
+</head>
+<body>
+
+    <div class="contenedor">
+        <h1>Mayor, menor y promedio de "x" cantidad de números</h1>
+
+        <label for="numerosIngresados" class="etiqueta"> Ingresa varios números separados por comas:</label>
+
+        <input type="text" id="numerosIngresados" class="numeroConvertir" placeholder="Ejemplo: 10,7,5,7,54"><br><br>
+
+
+        <button onclick="calcular()" class="boton">Calcular</button><br><br>
+
+        <label for="resultadoMayor" class="etiqueta">Número mayor:</label>
+        <input type="text" id="resultadoMayor" class="numeroConvertido" readonly tabindex="-1"><br><br>
+
+        <label for="resultadoMenor" class="etiqueta">Número menor:</label>
+        <input type="text" id="resultadoMenor" class="numeroConvertido" readonly tabindex="-1"><br><br>
+
+        <label for="resultadoPromedio" class="etiqueta">Promedio:</label>
+        <input type="text" id="resultadoPromedio" class="numeroConvertido" readonly tabindex="-1"
+        >
+    </div>
+
+    <script src="js/ejercicio14.js"></script>
+</body>
+</html>
+

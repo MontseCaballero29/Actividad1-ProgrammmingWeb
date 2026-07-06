@@ -1,0 +1,52 @@
+body {
+    font-family: "Times New Roman", serif;
+    background-color: #fbf0ff;
+    color: black;
+    padding: 10px;
+}
+
+h1 {
+    font-size: 60px;
+    margin-bottom: 40px;
+    color: #681e8a;
+}
+
+.etiqueta {
+    font-size: 30px;
+    margin-right: 5px;
+    color: #60127c;
+}
+
+.numeroConvertir,
+.numeroConvertido {
+    font-size: 28px;
+    width: 330px;
+    height: 38px;
+    margin-right: 5px;
+    border: 2px solid #b278de;
+    border-radius: 6px;
+    background-color: white;
+    color: black;
+}
+
+.numeroConvertido {
+    background-color: #f4e0fe;
+    pointer-events: none;
+    user-select: none;
+    caret-color: transparent;
+}
+
+.boton {
+    font-size: 28px;
+    height: 44px;
+    margin-right: 5px;
+    background-color: #6a1c71;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.boton:hover {
+    background-color: #c81dd8;
+}

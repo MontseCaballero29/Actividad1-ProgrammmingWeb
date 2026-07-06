@@ -68,3 +68,32 @@ h1 {
     font-style: italic;
     color: #7f8c8d;
 }
+
+@media (max-width: 600px) {
+    body { padding: 10px; }
+    
+    .contenedor {
+        width: 100%;
+        padding: 15px;
+        box-sizing: border-box;
+    }
+
+    h1 {
+        font-size: 22px;
+        line-height: 1.2;
+    }
+
+    .horario {
+        width: 100%;
+        table-layout: fixed;
+    }
+
+    .horario th,
+    .horario td {
+        font-size: 9px;
+        padding: 4px;
+        overflow-wrap: break-word;
+    }
+
+    .notas {  font-size: 11px; }
+}

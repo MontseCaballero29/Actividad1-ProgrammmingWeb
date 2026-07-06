@@ -1,0 +1,136 @@
+:root {
+    --color-primario: #c17da7;
+    --color-secundario: #ed4cf0;
+    --color-fondo: #faf8fa;
+    --color-texto: #2B2D42;
+    --color-borde: #eee9ef;
+}
+
+/* Reinicia márgenes y espacios */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    background-color: var(--color-fondo);
+    color: var(--color-texto);
+    line-height: 1.6;
+    padding: 40px 20px;
+}
+
+/* Contenedor principal */
+.contenedor-formulario {
+    max-width: 600px;
+    margin: 0 auto;
+    background: white;
+    padding: 40px;
+    border-radius: 12px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+}
+
+/* Título principal */
+h1 {
+    font-size: 28px;
+    color: var(--color-primario);
+    margin-bottom: 8px;
+}
+
+/* Subtítulo */
+.subtitulo {
+    color: #7d6c7c;
+    margin-bottom: 30px;
+}
+
+/* Grupo del formulario */
+.grupo-formulario {
+    margin-bottom: 20px;
+}
+
+/* Etiqueta */
+label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: 500;
+    font-size: 14px;
+}
+
+/* Campo de texto */
+input {
+    width: 100%;
+    padding: 12px 15px;
+    border: 1px solid var(--color-borde);
+    border-radius: 8px;
+    transition: all 0.3s;
+}
+
+/* Efecto al seleccionar el input */
+input:focus {
+    border-color: var(--color-secundario);
+    outline: none;
+    box-shadow: 0 0 0 3px rgba(76, 201, 240, 0.2);
+}
+
+/* Botón agregar */
+.boton-agregar {
+    width: 100%;
+    background-color: var(--color-primario);
+    color: white;
+    border: none;
+    padding: 14px 24px;
+    border-radius: 8px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+/* Efecto botón agregar */
+.boton-agregar:hover { background-color: #2a0880;}
+
+/* Contenedor de tareas */
+.contenedor-tareas {margin-top: 30px;}
+
+/* Título de tareas */
+.contenedor-tareas h2 {
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+/* Cada tarea */
+.tarea {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    margin-bottom: 10px;
+    border: 1px solid var(--color-borde);
+    border-radius: 8px;
+    background-color: #fafafa;
+}
+
+/* Texto de cada tarea */
+.tarea p { margin-right: 15px; }
+
+/* Botón eliminar */
+.boton-eliminar {
+    background-color: #d74fd9;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+
+/* Efecto del botón eliminar */
+.boton-eliminar:hover { background-color: #b52b27; }
+
+/* Mensaje cuando no existen tareas */
+.sin-tareas {
+    text-align: center;
+    color: #6C757D;
+    padding: 20px;
+}
