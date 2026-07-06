@@ -1,0 +1,107 @@
+:root {
+    --color-primario: #7dacc1;
+    --color-secundario: #4c72f0;
+    --color-fondo: #c1d1e9;
+    --color-texto: #2c2b42;
+    --color-borde: #e9eaef;
+}
+
+/* Reinicia márgenes y espacios */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    background-color: var(--color-fondo);
+    color: var(--color-texto);
+    line-height: 1.6;
+    padding: 40px 20px;
+}
+
+/* Contenedor principal */
+.contenedor-formulario {
+    max-width: 600px;
+    margin: 0 auto;
+    background: rgb(195, 191, 224);
+    padding: 40px;
+    border-radius: 12px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+}
+
+/* Título */
+h1 {
+    font-size: 28px;
+    color: var(--color-primario);
+    margin-bottom: 8px;
+}
+
+/* Texto debajo del título */
+.subtitulo {
+    color: #000000;
+    margin-bottom: 30px;
+}
+
+/* Grupo de cada campo */
+.grupo-formulario {
+    margin-bottom: 20px;
+}
+
+/* Etiquetas */
+label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: 500;
+    font-size: 14px;
+}
+
+/* Campos de texto */
+input {
+    width: 100%;
+    padding: 12px 15px;
+    border: 1px solid var(--color-borde);
+    border-radius: 8px;
+    transition: all 0.3s;
+}
+
+/* Efecto cuando se selecciona un input */
+input:focus {
+    border-color: var(--color-secundario);
+    outline: none;
+    box-shadow: 0 0 0 3px rgba(81, 144, 163, 0.2);
+}
+
+/* Contenedor de botones */
+.grupo-botones {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 15px;
+    margin-bottom: 25px;
+}
+
+/* Botones */
+.boton-operacion {
+    background-color: var(--color-primario);
+    color: rgb(255, 255, 255);
+    border: none;
+    padding: 14px 20px;
+    border-radius: 8px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+/* Efecto al pasar el mouse */
+.boton-operacion:hover { background-color: #393a7a;}
+
+/* Separación del resultado */
+.resultado {margin-top: 20px;}
+
+/* Campo del resultado */
+#resultado {
+    background-color: #ffffff;
+    font-weight: bold;
+}
